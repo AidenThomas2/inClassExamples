@@ -5,15 +5,15 @@ import java.util.Random;
 public class Prog {
 
 	public static void main(String[] args) {
-		int[] numbers = new int[20];
+		int[] numbers = new int[1000000];
 		int location;
 		
-		loadArrayRandom(numbers,20,10);
+		loadArrayRandom(numbers,10,0);
 		showArray(numbers);
 		bubbleSort(numbers);
 		showArray(numbers);
 		
-		location = linearSearch(numbers,20);
+		location = linearSearch(numbers,200);
 		System.out.printf("The value is at %d\n", location);
 	}
 	
