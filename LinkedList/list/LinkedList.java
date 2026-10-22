@@ -2,9 +2,22 @@ package list;
 
 public class LinkedList {
 	Node HEAD;
+	Node TAIL;
 	
 	public LinkedList() {
 		this.HEAD=null;
+	}
+	
+	public void appendWithTail(int value) {
+		
+	}
+	
+	public Node search(int value) {
+		
+	}
+	
+	public Node delete(int value) {
+		
 	}
 	
 	public void append(int value) {
